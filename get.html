@@ -1,0 +1,45 @@
+<div class="container">
+    <hr>
+    <h1>GETT CHECK</h1>
+    <hr>
+ <script src="app.js"></script>
+    <form action="http://localhost:5000/getInfantData" method="POST">
+        
+
+        <div class="form-group">
+            <label for="Type">Report Type</label>
+            <input class="form-control" name="ReportType">
+
+            <label for="Infant Hospital Id">Infant Hospital Id</label>
+            <input class="form-control" name="InfantHospitalId">
+       
+     
+            <label for="Infant First Name">Infant First Name</label>
+            <input class="form-control" name="InfantFirstName">
+       
+
+        
+            <label for="Infant Last Name">Infant Last Name</label>
+            <input class="form-control" name="InfantLastName">
+        </div>
+        
+
+        <!--Other fields-->
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+
+        <table id="infantReport" style="width:100%">
+  <caption>Infant Data</caption>
+  <tr>
+    <th>Infant Hospital Id</th>
+    <th>Infant Fist Name</th>
+    <th>Infant Last Name</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  
+</table>
+    </form>
+</div>
